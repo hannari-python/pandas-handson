@@ -6,7 +6,7 @@ Pandas ハンズオン用のリポジトリ
 ## リポジトリのクローン
 
 このリポジトリをcloneしておいてください。cloneするにはgitコマンドが使える状態である必要があります。
-[gitのインストールページ](https://git-scm.com/book/ja/v1/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB) を参照してインストールしてください。  
+[gitのインストールページ](https://git-scm.com/book/ja/v1/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB#Mac%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB) を参照してインストールしてください。  
   
 ```
 $ git clone https://github.com/hannari-python/pandas-handson.git
