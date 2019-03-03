@@ -23,7 +23,7 @@ $ git clone https://github.com/hannari-python/pandas-handson.git
 リポジトリをクローンして `pandas-handson/` に移動します。
 
 ```
-$ cd dash-handson
+$ cd pandas-handson
 ```
 
 Dockerコンテナを起動します。
