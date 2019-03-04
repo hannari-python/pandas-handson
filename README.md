@@ -35,6 +35,9 @@ $ docker-compose up --build
 ブラウザでアクセスするとJupyterNotebookのページが表示されます。
 [http://localhost:10000/](http://localhost:10000/)
 
+ログでは port が 8888 となっていますが、 dockerの設定で実際は portは 10000 なので注意して下さい。
+
+(ポートが衝突する方は `docker-compose.yml` の ports: の 10000 ( : の左側の値) を任意に変えてください。
 
 ## JupyterにTokenを入力する
 
