@@ -71,3 +71,22 @@ JupyterNotebookにCSVファイルなどを読み込ませる場合にここに�
 `hannari.csv` というファイルを配置した場合は `/data/hannari.csv` としてJupyterNotebookから読み込めます。
 
 
+# トラブルシューティング
+
+## ERROR: Version in "./docker-compose.yml" is unsupported.
+
+```
+ERROR: Version in "./docker-compose.yml" is unsupported. You might be seeing this error because you're using the wrong Compose file version. Either specify a supported version (e.g "2.2" or "3.3") and place your service definitions under the services key, or omit the version key and place your service definitions at the root of the file to use version 1.
+For more on the Compose file format versions, see https://docs.docker.com/compose/compose-file/　
+```
+
+上記のようなエラーが発生する場合は `docker-compose.yml` のバージョン部分を次のように変更して下さい。
+
+```diff
+-version: '3.7'
++version: '3.3'
+ services:
+   jupyter:
+     build:
+```
+
