@@ -21,3 +21,5 @@ RUN pip install tqdm
 RUN pip install sklearn
 RUN pip install ipython
 RUN pip install ipdb
+RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
+RUN jupyter labextension install qgrid
